@@ -6,7 +6,7 @@ Maintained by [CV Nexteam Teknologi Indonesia](https://www.nexteam.id/)
 
 ### Usage
 
-- Install
+- Install it by using command : `composer require nexteam/trivel`
 
 - Add configuration in your `.env` file like this : 
 
