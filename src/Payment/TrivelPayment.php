@@ -13,7 +13,7 @@ class TrivelPayment
     /**
      * @throws TrivelException
      */
-    public static function getInstruction(InstructionPaymentRequest $request)
+    public static function instruction(InstructionPaymentRequest $request)
     {
         try {
 
