@@ -1,0 +1,18 @@
+{
+    "name": "nexteam/trivel",
+    "description": "Unofficial Tripay Wrapper For Laravel",
+    "autoload": {
+        "psr-4": {
+            "Nexteam\\Trivel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ilzam",
+            "email": "ilzammulkhaq85@gmail.com"
+        }
+    ],
+    "require": {
+        "spatie/laravel-package-tools": "^1.16"
+    }
+}
