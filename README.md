@@ -7,9 +7,19 @@ Maintained by [CV Nexteam Teknologi Indonesia](https://www.nexteam.id/)
 ### Usage
 
 - Install
+
+- Add configuration in your `.env` file like this : 
+
+```
+TRIVEL_BASE_URL="https://tripay.co.id/api-sandbox"
+TRIVEL_API_KEY=...
+TRIVEL_MERCHANT_CODE=...
+TRIVEL_PRIVATE_KEY=...
+```
+
 - Don't forget to publish the `trivel-config` by run command : `php artisan vendor:publish trivel-config`
 
-## example
+## Example
 
 ```php
 <?php
