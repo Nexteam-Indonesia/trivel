@@ -1,6 +1,6 @@
 {
     "name": "nexteam/trivel",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Unofficial Tripay Wrapper For Laravel",
     "autoload": {
         "psr-4": {
