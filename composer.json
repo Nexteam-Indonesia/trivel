@@ -1,6 +1,9 @@
 {
     "name": "nexteam/trivel",
     "description": "Unofficial Tripay Wrapper For Laravel",
+    "license": [
+        "Apache-2.0"
+    ],
     "autoload": {
         "psr-4": {
             "Nexteam\\Trivel\\": "src/"
