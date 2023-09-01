@@ -17,6 +17,15 @@ TRIVEL_MERCHANT_CODE=...
 TRIVEL_PRIVATE_KEY=...
 ```
 
+- Add `TrivelServiceProvider` to `config/app.php` : 
+
+```php
+'providers' => ServiceProvider::defaultProviders()->merge([
+        // another service provider
+        \Nexteam\Trivel\TrivelServiceProvider::class
+    ])->toArray(),
+```
+
 - Don't forget to publish the `trivel-config` by run command : `php artisan vendor:publish trivel-config`
 
 ## Example
